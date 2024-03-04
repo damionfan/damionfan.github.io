@@ -2,7 +2,7 @@
 title: "TensorFHE: Achieving Practical Computation on Encrypted Data Using GPGPU"
 collection: publications
 permalink: /publication/hpca23-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-03-01
 venue: 'HPCA-23'
 # paperurl: 'http://damionfan.github.io/files/hpca23_1.pdf'
