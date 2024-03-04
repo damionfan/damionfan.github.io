@@ -1,11 +1,14 @@
 ---
 permalink: /
-title: "Home - Shengyu Fan"
+title: "Shengyu Fan"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+Short Bio
+=== 
 
 Hi! I am currently a one-year Ph.D. student in Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Dr. Rui Hou](https://pages.github.com) and [Dr. Mingzhe Zhang](https://mingzhe-zhang.github.io/). I received my B.E. and M.S. degree from the Shandong Normal University in 2016 and 2023, respectively.
 
