@@ -11,8 +11,8 @@ locale                   : "en-US"
 title                    : "Shengyu Fan"
 title_separator          : "-"
 name                     : &name "Shengyu Fan"
-description              : &description ""
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Ph.D. Candidate at Institute of Information Engineering, Chinese Academy of Sciences"
+url                      : https://damionfan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "damionfan/damionfan.github.io"
 
@@ -25,10 +25,10 @@ author:
   name             : "Shengyu Fan"
   pronouns         : # example: "she/her"  
   bio              : "-"
-  location         : "Earth"
-  employer         : "-"
+  location         : "Beijing,China"
+  employer         : #"-"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "fanshengyu@iie.ac.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
