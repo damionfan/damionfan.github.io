@@ -18,7 +18,7 @@ My research interests lie in the domain of computer architecture, with a special
 
 News!
 ======
-- 07/2023: One paper is accepted by TACO 2024. Thanks to all collaborators!
+- 07/2023: One paper is accepted by TACO 2023. Thanks to all collaborators!
 - 02/2023: Two paper is accepted by HPCA 2023. Thanks to all collaborators!
 - 08/2022: One paper is accepted by INS 2022. Thanks to all collaborators!
 
