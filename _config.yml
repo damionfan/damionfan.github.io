@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shengyu Fan"
+title                    : "Shengyu Fan's Homepage"
 title_separator          : "-"
 name                     : &name "Shengyu Fan"
 description              : &description "Ph.D. Candidate at Institute of Information Engineering, Chinese Academy of Sciences"
