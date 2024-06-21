@@ -18,6 +18,7 @@ sitemap: false
 - <span style="color:orange">[NN23,CCF-B] </span>
 [Tell me your position: Distantly supervised biomedical entity relation extraction using entity position marker](https://www.sciencedirect.com/science/article/abs/pii/S0020025522006831)
   - Jiran Zhu, Jikun Dong, Hongyun Du, Yanfang Geng, **Shengyu Fan**, Hui Yu, Zengzhen Shao, Xia Wang, Yaping Yang, Weizhi Xu
+  
 <!-- - <span style="color:orange">[INS22] </span>
 [Multi-attention deep neural network fusing character and word embedding for clinical and biomedical concept extraction](https://www.sciencedirect.com/science/article/abs/pii/S0020025522006831)
   - **Shengyu Fan**, Hui Yu, Xiaoya Cai, Yanfang Geng, Guangzhen Li, Weizhi Xu, Xia Wang, Yaping Yang -->
