@@ -11,7 +11,7 @@ sitemap: false
 Short Bio
 === 
 
-Hi! I am currently a one-year Ph.D. student in Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Dr. Rui Hou](http://hourui-arch.net/) and [Dr. Mingzhe Zhang](https://mingzhe-zhang.github.io/). I received my B.E. and M.S. degree from the Shandong Normal University in 2016 and 2023, respectively.
+Hi! I am currently a one-year Ph.D. student in Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Dr. Rui Hou](http://hourui-arch.net/) and [Dr. Mingzhe Zhang](https://mingzhe-zhang.github.io/). I received my B.E. and M.S. degree from the Shandong Normal University in 2020 and 2023, respectively.
 
 <!-- In recent years, my research interests lie in the domain of computer architecture, with a specialized focus on the design of accelerators for Fully Homomorphic Encryption (FHE) and the optimization of related FHE applications. -->
 In recent years, my research has centered on **computer architecture**, specializing in accelerator design for Fully Homomorphic Encryption (FHE) and optimizing associated applications. I aim to advance practical implementation of FHE, addressing key concerns in data security and privacy.
