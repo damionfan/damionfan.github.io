@@ -8,12 +8,12 @@ redirect_from:
 sitemap: false
 ---
 
-"岂能尽如人意，但求无愧我心。"
+"*岂能尽如人意，但求无愧我心。*"
 
-<p align="left">
-— 《格言联璧·接物类》
+
+<p style="text-align: left;">
+                        ———《格言联璧·接物类》
 </p>
-
 
 Short Bio
 === 
