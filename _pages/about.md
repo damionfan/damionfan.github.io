@@ -11,7 +11,7 @@ sitemap: false
 "*岂能尽如人意，但求无愧我心。*"
 
 
-<p style="text-align: left;">
+<p style="text-align: right;">
                         ———《格言联璧·接物类》
 </p>
 
