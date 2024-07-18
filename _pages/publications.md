@@ -5,6 +5,20 @@ permalink: /publications/
 author_profile: true
 sitemap: false
 ---
+- <span style="color:orange">[MCIRO2024,CCF-A] </span>
+[Trinity: A General Purpose FHE Accelerator](TBD) 
+  - [Xianglong Deng](https://xldeng-chn.github.io/)<sup>*</sup>, **Shengyu Fan**<sup>*</sup>, Zhicheng Hu,
+Zhuoyu Tian, 
+Zihao Yang, 
+Jiangrui Yu, 
+Dingyuan Cao, 
+Dan Meng, 
+Rui Hou, 
+Meng Li, 
+Qian Lou, 
+Mingzhe Zhang
+  - <sup>*</sup>The authors contribute equally.
+- <span style="color:orange">[TACO23,CCF-A] </span>
 
 - <span style="color:orange">[TACO23,CCF-A] </span>
 [Accelerating convolutional neural network by exploiting sparsity on gpus](https://dl.acm.org/doi/full/10.1145/3600092) 

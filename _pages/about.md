@@ -18,7 +18,8 @@ sitemap: false
 Short Bio
 === 
 
-Hi! I am currently a one-year Ph.D. student in Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Dr. Rui Hou](http://hourui-arch.net/) and [Dr. Mingzhe Zhang](https://mingzhe-zhang.github.io/). I received my B.E. and M.S. degree from the Shandong Normal University in 2020 and 2023, respectively.
+<!-- Hi! I am currently a two-year Ph.D. student in Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). I received my B.E. and M.S. degree from the Shandong Normal University in 2020 and 2023, under the supervision of Prof. Weizhi Xu, respectively. -->
+I am currently a second-year Ph.D. student at the Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). I received my B.E. and M.S. degrees from Shandong Normal University in 2020 and 2023, respectively, under the supervision of Prof. Weizhi Xu.
 
 <!-- In recent years, my research interests lie in the domain of computer architecture, with a specialized focus on the design of accelerators for Fully Homomorphic Encryption (FHE) and the optimization of related FHE applications. -->
 In recent years, my research has centered on **computer architecture**, specializing in accelerator design for Fully Homomorphic Encryption (FHE) and optimizing associated applications. I aim to advance practical implementation of FHE, addressing key concerns in data security and privacy.
@@ -26,13 +27,26 @@ In recent years, my research has centered on **computer architecture**, speciali
 
 News!
 ======
+- 27/2024: One paper is accepted by MICRO 2024. Thanks to all collaborators!
 - 07/2023: One paper is accepted by TACO 2023. Thanks to all collaborators!
 - 02/2023: Two paper are accepted by HPCA 2023. Thanks to all collaborators!
 <!-- - 08/2022: One paper is accepted by INS 2022. Thanks to all collaborators! -->
 
 Publications
 ======
-- <span style="color:orange">[TACO23,CCF-A] </span>
+- <span style="color:orange">[MCIRO2024,CCF-A] </span>
+[Trinity: A General Purpose FHE Accelerator](TBD) 
+  - [Xianglong Deng](https://xldeng-chn.github.io/)<sup>*</sup>, **Shengyu Fan**<sup>*</sup>, Zhicheng Hu,
+Zhuoyu Tian, 
+Zihao Yang, 
+Jiangrui Yu, 
+Dingyuan Cao, 
+Dan Meng, 
+Rui Hou, 
+Meng Li, 
+Qian Lou, 
+Mingzhe Zhang
+  - <sup>*</sup>The authors contribute equally.
 [Accelerating convolutional neural network by exploiting sparsity on gpus](https://dl.acm.org/doi/full/10.1145/3600092) 
   - Weizhi Xu, Yintai Sun, **Shengyu Fan**, Hui Yu, Xin Fu
 - <span style="color:orange">[HPCA23,CCF-A] </span>
