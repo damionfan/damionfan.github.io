@@ -47,6 +47,8 @@ Meng Li,
 Qian Lou, 
 Mingzhe Zhang
   - <sup>*</sup>The authors contribute equally.
+
+- <span style="color:orange">[TACO23,CCF-A] </span>
 [Accelerating convolutional neural network by exploiting sparsity on gpus](https://dl.acm.org/doi/full/10.1145/3600092) 
   - Weizhi Xu, Yintai Sun, **Shengyu Fan**, Hui Yu, Xin Fu
 - <span style="color:orange">[HPCA23,CCF-A] </span>

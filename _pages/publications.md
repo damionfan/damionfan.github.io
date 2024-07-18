@@ -18,7 +18,7 @@ Meng Li,
 Qian Lou, 
 Mingzhe Zhang
   - <sup>*</sup>The authors contribute equally.
-- <span style="color:orange">[TACO23,CCF-A] </span>
+
 
 - <span style="color:orange">[TACO23,CCF-A] </span>
 [Accelerating convolutional neural network by exploiting sparsity on gpus](https://dl.acm.org/doi/full/10.1145/3600092) 
