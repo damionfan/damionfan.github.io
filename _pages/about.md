@@ -34,7 +34,7 @@ News!
 
 Publications
 ======
-- <span style="color:orange">[MCIRO2024,CCF-A] </span>
+- <span style="color:orange">[MCIRO24,CCF-A] </span>
 [Trinity: A General Purpose FHE Accelerator](TBD) 
   - [Xianglong Deng](https://xldeng-chn.github.io/)<sup>*</sup>, **Shengyu Fan**<sup>*</sup>, Zhicheng Hu,
 Zhuoyu Tian, 
@@ -51,6 +51,7 @@ Mingzhe Zhang
 - <span style="color:orange">[TACO23,CCF-A] </span>
 [Accelerating convolutional neural network by exploiting sparsity on gpus](https://dl.acm.org/doi/full/10.1145/3600092) 
   - Weizhi Xu, Yintai Sun, **Shengyu Fan**, Hui Yu, Xin Fu
+
 - <span style="color:orange">[HPCA23,CCF-A] </span>
 [TensorFHE: Achieving Practical Computation on Encrypted Data Using GPGPU](https://ieeexplore.ieee.org/abstract/document/10071017/)
   - **Shengyu Fan**, Zhiwei Wang, Weizhi Xu, Rui Hou, Dan Meng, Mingzhe Zhang
