@@ -9,8 +9,7 @@ sitemap: false
 ---
 
 "*岂能尽如人意，但求无愧我心。*"
-
-
+"*Life won't always meet your expectation, but strive to live without hesitation.*"
 <p style="text-align: right;">
                         ———《格言联璧·接物类》
 </p>
