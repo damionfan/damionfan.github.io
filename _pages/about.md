@@ -27,13 +27,19 @@ In recent years, my research has centered on **computer architecture**, speciali
 
 News!
 ======
-- 27/2024: One paper is accepted by MICRO 2024. Thanks to all collaborators!
+- 11/2024: One paper is accepted by HPCA 2024. Thanks to all collaborators!
+- 07/2024: One paper is accepted by MICRO 2024. Thanks to all collaborators!
 - 07/2023: One paper is accepted by TACO 2023. Thanks to all collaborators!
 - 02/2023: Two paper are accepted by HPCA 2023. Thanks to all collaborators!
 <!-- - 08/2022: One paper is accepted by INS 2022. Thanks to all collaborators! -->
 
 Publications
 ======
+- <span style="color:orange">[HPCA23,CCF-A] </span>
+[WarpDrive: GPU-Based Fully Homomorphic Encryption Acceleration Leveraging Tensor and CUDA Cores](TBD)
+  - Guang Fan, Mingzhe Zhang, Fangyu Zheng, <sup>*</sup>, **Shengyu Fan**<sup>*</sup>, Tian Zhou, Xianglong Deng, Wenxu Tang,
+Liang Kong, Yixuan Song, and Shoumeng Yan
+
 - <span style="color:orange">[MCIRO24,CCF-A] </span>
 [Trinity: A General Purpose FHE Accelerator](TBD) 
   - [Xianglong Deng](https://xldeng-chn.github.io/)<sup>*</sup>, **Shengyu Fan**<sup>*</sup>, Zhicheng Hu,
