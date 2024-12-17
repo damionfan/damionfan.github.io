@@ -37,7 +37,7 @@ Publications
 ======
 - <span style="color:orange">[HPCA23,CCF-A] </span>
 [WarpDrive: GPU-Based Fully Homomorphic Encryption Acceleration Leveraging Tensor and CUDA Cores](TBD)
-  - Guang Fan, Mingzhe Zhang, Fangyu Zheng, <sup>*</sup>, **Shengyu Fan**<sup>*</sup>, Tian Zhou, Xianglong Deng, Wenxu Tang,
+  - Guang Fan, Mingzhe Zhang, Fangyu Zheng, , **Shengyu Fan**, Tian Zhou, Xianglong Deng, Wenxu Tang,
 Liang Kong, Yixuan Song, and Shoumeng Yan
 
 - <span style="color:orange">[MCIRO24,CCF-A] </span>
