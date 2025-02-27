@@ -31,7 +31,8 @@ Additionally, I am increasingly exploring accelerator design for Large Language 
 
 News!
 ======
-- 11/2024: One paper is accepted by HPCA 2024. Thanks to all collaborators!
+- 12/2024: I will join the Artifact Evaluation Committee of HPCA 2025.
+- 11/2024: One paper is accepted by HPCA 2025. Thanks to all collaborators!
 - 07/2024: One paper is accepted by MICRO 2024. Thanks to all collaborators!
 - 07/2023: One paper is accepted by TACO 2023. Thanks to all collaborators!
 - 02/2023: Two paper are accepted by HPCA 2023. Thanks to all collaborators!
@@ -39,7 +40,7 @@ News!
 
 Publications
 ======
-- <span style="color:orange">[HPCA23,CCF-A] </span>
+- <span style="color:orange">[HPCA25,CCF-A] </span>
 [WarpDrive: GPU-Based Fully Homomorphic Encryption Acceleration Leveraging Tensor and CUDA Cores](TBD)
   - Guang Fan, Mingzhe Zhang, Fangyu Zheng, , **Shengyu Fan**, Tian Zhou, Xianglong Deng, Wenxu Tang,
 Liang Kong, Yixuan Song, and Shoumeng Yan
