@@ -31,6 +31,7 @@ Additionally, I am increasingly exploring accelerator design for Large Language 
 
 News!
 ======
+- 04/2025: Two paper are accepted by ISCA 2025. Thanks to all collaborators!
 - 12/2024: I will join the Artifact Evaluation Committee of HPCA 2025.
 - 11/2024: One paper is accepted by HPCA 2025. Thanks to all collaborators!
 - 07/2024: One paper is accepted by MICRO 2024. Thanks to all collaborators!
