@@ -47,10 +47,10 @@ Publications
   - **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/), Liang Kong, Guiming Shi, Guang Fan, Dan Meng, Rui Hou, Mingzhe Zhang
 - <span style="color:orange">[ISCA25,CCF-A] </span>
 [Neo: Towards Efficient Fully Homomorphic Encryption Acceleration using Tensor Core](TBD)
-  - Dian Jiao, Xianglong Deng, Zhiwei Wang, Shengyu Fan, Dan Meng, Rui Hou, Mingzhe Zhang
+  - Dian Jiao, [Xianglong Deng](https://xldeng-chn.github.io/), Zhiwei Wang, **Shengyu Fan**, Dan Meng, Rui Hou, Mingzhe Zhang
 - <span style="color:orange">[HPCA25,CCF-A] </span>
 [WarpDrive: GPU-Based Fully Homomorphic Encryption Acceleration Leveraging Tensor and CUDA Cores](TBD)
-  - Guang Fan, Mingzhe Zhang, Fangyu Zheng, , **Shengyu Fan**, Tian Zhou, Xianglong Deng, Wenxu Tang,
+  - Guang Fan, Mingzhe Zhang, Fangyu Zheng, **Shengyu Fan**, Tian Zhou, Xianglong Deng, Wenxu Tang,
 Liang Kong, Yixuan Song, and Shoumeng Yan
 
 - <span style="color:orange">[MCIRO24,CCF-A] </span>
