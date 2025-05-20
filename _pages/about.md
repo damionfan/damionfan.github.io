@@ -70,7 +70,7 @@ Qian Lou,
 Mingzhe Zhang
   - <sup>*</sup>The authors contribute equally.
 
-- ![Static Badge](https://img.shields.io/badge/TACO-2024-rgb)
+- ![Static Badge](https://img.shields.io/badge/TACO-2024-blue)
 [Accelerating convolutional neural network by exploiting sparsity on gpus](https://dl.acm.org/doi/full/10.1145/3600092) 
   - Weizhi Xu, Yintai Sun, **Shengyu Fan**, Hui Yu, Xin Fu
 
