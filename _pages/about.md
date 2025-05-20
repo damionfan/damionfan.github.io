@@ -44,7 +44,7 @@ Publications
 ======
 
 <!-- - <span style="color:orange">[ISCA25,CCF-A] </span> -->
--  ![Static Badge](https://img.shields.io/badge/ISCA-2025-rgb)
+- ![Static Badge](https://img.shields.io/badge/ISCA-2025-rgb)
 [FAST:An FHE Accelerator for Scalable-parallelism with Tunable-bit](TBD)
   - **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/), Liang Kong, Guiming Shi, Guang Fan, Dan Meng, Rui Hou, Mingzhe Zhang
 - ![Static Badge](https://img.shields.io/badge/ISCA-2025-rgb)
