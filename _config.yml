@@ -21,7 +21,7 @@ repository               : "damionfan/damionfan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Shengyu Fan 范胜玉"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Student at Institute of Information Engineering, Chinese Academy of Sciences"
