@@ -19,19 +19,21 @@ Short Bio
 === 
 
 <!-- Hi! I am currently a two-year Ph.D. student in Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). I received my B.E. and M.S. degree from the Shandong Normal University in 2020 and 2023, under the supervision of Prof. Weizhi Xu, respectively. -->
-I am currently a Ph.D. student at the Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). 
-I received my B.E. and M.S. degrees from Shandong Normal University in 2020 and 2023, respectively, under the supervision of Prof. Weizhi Xu.
+I am a finial year Ph.D. candidate at the Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). 
+<!-- I received my B.E. and M.S. degrees from Shandong Normal University in 2020 and 2023, respectively, under the supervision of Prof. Weizhi Xu. -->
 
 <!-- In recent years, my research interests lie in the domain of computer architecture, with a specialized focus on the design of accelerators for Fully Homomorphic Encryption (FHE) and the optimization of related FHE applications. -->
 <!-- In recent years, my research has centered on **computer architecture**, specializing in accelerator design for Fully Homomorphic Encryption (FHE) and optimizing associated applications. I aim to advance practical implementation of FHE, addressing key concerns in data security and privacy.
 Besides, we also post more interest in the accelerator for the Large Langes Model~(LLM). -->
 In recent years, my research has focused on computer architecture, with a specialization in accelerator design for Fully Homomorphic Encryption (FHE) and the optimization of its associated applications. My work aims to advance the practical implementation of FHE, addressing critical challenges in data security and privacy.
 
-Additionally, I am increasingly exploring accelerator design for Large Language Models (LLMs) to enhance their performance and efficiency.
+Additionally, I am increasingly exploring accelerator/system design for Large Language Models (LLMs) to enhance their performance, efficiency and security.
 
 
 News!
 ======
+<!-- - 09/2025: I will join the Artifact Evaluation Committee of EouSys 2025. -->
+- 08/2025: I will join the Artifact Evaluation Committee of SOSP 2025.
 - 07/2025: One paper are accepted by MICRO 2025. Thanks to all collaborators!
 - 07/2025: I will join the Artifact Evaluation Committee of MICRO 2025.
 <!-- - 06/2025: One paper are accepted by CCS 2025. Thanks to all collaborators! -->
