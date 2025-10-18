@@ -32,11 +32,11 @@ Additionally, I am increasingly exploring accelerator/system design for Large La
 
 News!
 ======
-<!-- - 09/2025: I will join the Artifact Evaluation Committee of EouSys 2025. -->
+- 09/2025: I will join the Artifact Evaluation Committee of EouSys 2025.
 - 08/2025: I will join the Artifact Evaluation Committee of SOSP 2025.
-- 07/2025: One paper are accepted by MICRO 2025. Thanks to all collaborators!
+- 07/2025: One paper is accepted by MICRO 2025. Thanks to all collaborators!
 - 07/2025: I will join the Artifact Evaluation Committee of MICRO 2025.
-<!-- - 06/2025: One paper are accepted by CCS 2025. Thanks to all collaborators! -->
+- 06/2025: One paper are accepted by CCS 2025. Thanks to all collaborators!
 - 04/2025: Two paper are accepted by ISCA 2025. Thanks to all collaborators!
 - 12/2024: I will join the Artifact Evaluation Committee of HPCA 2025.
 - 11/2024: One paper is accepted by HPCA 2025. Thanks to all collaborators!
@@ -49,6 +49,9 @@ Publications
 ======
 
 <!-- - <span style="color:orange">[ISCA25,CCF-A] </span> -->
+- ![Static Badge](https://img.shields.io/badge/MICRO-2025-rgb)
+[HAWK: Fully Homomorphic Encryption Accelerator with Fixed-Word Key Decomposition Switching](TBD)
+  - Liang Kong, **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/),Lei Chen, Guang Fan, Guiming Shi, Yilan Zhu, Geng Yang, Shoumeng, Mingzhe Zhang
 - ![Static Badge](https://img.shields.io/badge/ISCA-2025-rgb)
 [FAST:An FHE Accelerator for Scalable-parallelism with Tunable-bit](TBD)
   - **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/), Liang Kong, Guiming Shi, Guang Fan, Dan Meng, Rui Hou, Mingzhe Zhang
