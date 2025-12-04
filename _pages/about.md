@@ -32,7 +32,9 @@ Additionally, I am increasingly exploring accelerator/system design for Large La
 
 News!
 ======
-- 09/2025: I will join the Artifact Evaluation Committee of EouSys 2025.
+- 11/2025: One paper is accepted by ASPLOS 2026. Thanks to all collaborators!
+- 10/2025: One paper is accepted by HPCA 2026. Thanks to all collaborators!
+- 09/2025: I will join the Artifact Evaluation Committee of EuroSys 2025.
 - 08/2025: I will join the Artifact Evaluation Committee of SOSP 2025.
 - 07/2025: One paper is accepted by MICRO 2025. Thanks to all collaborators!
 - 07/2025: I will join the Artifact Evaluation Committee of MICRO 2025.
