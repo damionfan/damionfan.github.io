@@ -5,7 +5,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-sitemap: false
 ---
 
 "*岂能尽如人意，但求无愧我心。*"
@@ -19,7 +18,7 @@ Short Bio
 === 
 
 <!-- Hi! I am currently a two-year Ph.D. student in Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). I received my B.E. and M.S. degree from the Shandong Normal University in 2020 and 2023, under the supervision of Prof. Weizhi Xu, respectively. -->
-I am a finial year Ph.D. candidate at the Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). 
+I am a final year Ph.D. candidate at the Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). 
 <!-- I received my B.E. and M.S. degrees from Shandong Normal University in 2020 and 2023, respectively, under the supervision of Prof. Weizhi Xu. -->
 
 <!-- In recent years, my research interests lie in the domain of computer architecture, with a specialized focus on the design of accelerators for Fully Homomorphic Encryption (FHE) and the optimization of related FHE applications. -->
@@ -38,13 +37,13 @@ News!
 - 08/2025: I will join the Artifact Evaluation Committee of SOSP 2025.
 - 07/2025: One paper is accepted by MICRO 2025. Thanks to all collaborators!
 - 07/2025: I will join the Artifact Evaluation Committee of MICRO 2025.
-- 06/2025: One paper are accepted by CCS 2025. Thanks to all collaborators!
-- 04/2025: Two paper are accepted by ISCA 2025. Thanks to all collaborators!
+- 06/2025: One paper is accepted by CCS 2025. Thanks to all collaborators!
+- 04/2025: Two papers are accepted by ISCA 2025. Thanks to all collaborators!
 - 12/2024: I will join the Artifact Evaluation Committee of HPCA 2025.
 - 11/2024: One paper is accepted by HPCA 2025. Thanks to all collaborators!
 - 07/2024: One paper is accepted by MICRO 2024. Thanks to all collaborators!
 - 07/2023: One paper is accepted by TACO 2023. Thanks to all collaborators!
-- 02/2023: Two paper are accepted by HPCA 2023. Thanks to all collaborators!
+- 02/2023: Two papers are accepted by HPCA 2023. Thanks to all collaborators!
 <!-- - 08/2022: One paper is accepted by INS 2022. Thanks to all collaborators! -->
 
 Publications
