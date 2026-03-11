@@ -2239,7 +2239,45 @@ class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb42
 的回复</strong>。AI
 可以在容器内读取工作区的敏感文件（<code>workspaceAccess: "rw"</code>
 时），然后通过对话回复将内容发送给攻击者。这条通道完全不经过容器的网络层，沙盒无法拦截。</p>
-<h3 id="沙盒能解决前文哪些问题">7.6 沙盒能解决前文哪些问题？</h3>
+<h3 id="最大的局限性能与并发的绞肉机">7.6
+最大的局限：性能与并发的“绞肉机”</h3>
+<p>除了上述风险，在阅读 <code>fs-bridge.ts</code> 等底层代码时，笔者发现
+OpenClaw
+沙盒在工程实现上还有一个致命的阿喀琉斯之踵——<strong>极高的通信开销和并发瓶颈</strong>。</p>
+<p>在非沙盒模式下，AI 读写文件只是 Node.js
+中的一次普通系统调用（微秒级）。<strong>但在沙盒模式下，所有的文件操作都是通过独立的
+<code>docker exec</code> 子进程完成的。</strong></p>
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co">// fs-bridge.ts 的底层机制</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="kw">private</span> <span class="kw">async</span> <span class="fu">runCommand</span>(script<span class="op">:</span> <span class="dt">string</span><span class="op">,</span> options<span class="op">:</span> RunCommandOptions <span class="op">=</span> {}) {</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> dockerArgs <span class="op">=</span> [<span class="st">&quot;exec&quot;</span><span class="op">,</span> <span class="st">&quot;-i&quot;</span><span class="op">,</span> <span class="kw">this</span><span class="op">.</span><span class="at">sandbox</span><span class="op">.</span><span class="at">containerName</span><span class="op">,</span> <span class="st">&quot;sh&quot;</span><span class="op">,</span> <span class="st">&quot;-c&quot;</span><span class="op">,</span> script<span class="op">,</span> <span class="st">&quot;...&quot;</span>]<span class="op">;</span></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>  <span class="co">// 每次执行都会拉起一个 Docker CLI 进程，然后通过 daemon 进入容器执行 sh</span></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="fu">execDockerRaw</span>(dockerArgs<span class="op">,</span> <span class="op">...</span>)<span class="op">;</span></span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>这意味着： 1.
+<strong>单次操作成本极高</strong>：哪怕只是判断一个文件是否存在（stat），也需要
+<code>fork()</code> node 子进程 -&gt; 拉起 <code>docker</code> CLI -&gt;
+请求 dockerd -&gt; 进入容器拉起 <code>sh</code>。 2.
+<strong>复合操作的灾难</strong>：要写入一个文件，需要先
+<code>docker exec</code> 建临时文件，再 <code>docker exec</code>
+写入，最后再 <code>docker exec</code> 做原子级 rename。 3.
+<strong>高频读写的崩溃</strong>：如果 AI
+决定用一段脚本去扫描工程目录，会瞬间产生<strong>成百上千次</strong>的
+<code>docker exec</code> 调用。</p>
+<p><strong>为什么不用长链接？</strong>
+理想的沙盒设计，应该在容器内常驻一个轻量级的 RPC
+daemon，宿主机通过复用的长链接（gRPC/WebSocket）批量发送文件操作请求。但
+OpenClaw 借用了纯命令行的无状态机制。</p>
+<p>这种设计虽然避免了容器内的守护进程管理，但在面临<strong>高并发的多
+Agent 任务</strong>时： -
+宿主机的进程数（PIDs）和文件描述符（fd）会迅速被消耗殆尽。 - Docker
+Daemon (dockerd) 会被海量的 <code>exec</code> API
+请求淹没，导致响应延迟剧增甚至崩溃。</p>
+<p>因此，这里的沙盒实际上是一种<strong>极端的
+Trade-off</strong>：<strong>用极差的高频通信性能和有限的并发能力，换取了运行时的物理隔离。</strong>
+这使得它更适合做单任务的慢速安全防护，难以胜任大规模多 Agent
+的密集型工程扫雷。</p>
+<h3 id="沙盒能解决前文哪些问题">7.7 沙盒能解决前文哪些问题？</h3>
 <table>
 <thead>
 <tr class="header">
