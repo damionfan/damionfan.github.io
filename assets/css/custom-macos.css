@@ -1,0 +1,172 @@
+/*
+ * macOS-inspired Design for Academic Pages
+ * Overrides default styling with Apple.com aesthetic
+ */
+
+/* macOS Color Palette */
+:root {
+  --macos-bg: #F5F5F7;
+  --macos-bg-card: #FFFFFF;
+  --macos-text: #1D1D1F;
+  --macos-text-2: #6E6E73;
+  --macos-accent: #007AFF;
+  --macos-border: rgba(0,0,0,0.08);
+  --macos-nav-bg: rgba(255,255,255,0.78);
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --macos-bg: #000000;
+    --macos-bg-card: #1C1C1E;
+    --macos-text: #F5F5F7;
+    --macos-text-2: #98989D;
+    --macos-accent: #0A84FF;
+    --macos-border: rgba(255,255,255,0.10);
+    --macos-nav-bg: rgba(28,28,30,0.78);
+  }
+}
+
+/* Page Background */
+body {
+  background-color: var(--macos-bg) !important;
+  color: var(--macos-text) !important;
+}
+
+/* Navigation - Frosted Glass Effect */
+.masthead__inner-wrap {
+  background: var(--macos-nav-bg) !important;
+  backdrop-filter: saturate(180%) blur(24px);
+  -webkit-backdrop-filter: saturate(180%) blur(24px);
+  border-bottom: 1px solid var(--macos-border) !important;
+}
+
+/* Site Title */
+.masthead__menu-item .site-title {
+  font-weight: 600 !important;
+  letter-spacing: -0.2px !important;
+}
+
+/* Page Container */
+.page {
+  background: transparent !important;
+}
+
+/* Cards and Sections */
+.page__hero,
+.archive__item,
+.notice {
+  background: var(--macos-bg-card) !important;
+  border: 1px solid var(--macos-border) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
+}
+
+/* Archive Items */
+.archive__item-title {
+  color: var(--macos-text) !important;
+  font-weight: 600 !important;
+}
+
+.archive__item-title:hover {
+  color: var(--macos-accent) !important;
+}
+
+/* Sidebar/Author Profile */
+.sidebar {
+  background: var(--macos-bg-card) !important;
+  border: 1px solid var(--macos-border) !important;
+  border-radius: 14px !important;
+}
+
+/* Author Name */
+.author__name {
+  color: var(--macos-text) !important;
+  font-weight: 600 !important;
+}
+
+/* Social Icons */
+.social-icons a {
+  color: var(--macos-text-2) !important;
+}
+
+.social-icons a:hover {
+  color: var(--macos-accent) !important;
+}
+
+/* Buttons */
+.btn {
+  background: var(--macos-accent) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s !important;
+}
+
+.btn:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+/* Pagination */
+.pagination {
+  color: var(--macos-text-2) !important;
+}
+
+.pagination a {
+  color: var(--macos-accent) !important;
+}
+
+/* Footer */
+.page__footer {
+  background: var(--macos-bg-card) !important;
+  border-top: 1px solid var(--macos-border) !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--macos-text) !important;
+  font-weight: 600 !important;
+}
+
+/* Links */
+a {
+  color: var(--macos-accent) !important;
+  text-decoration: none !important;
+  transition: color 0.18s !important;
+}
+
+a:hover {
+  color: #0066CC !important;
+}
+
+/* Tables */
+table {
+  background: var(--macos-bg-card) !important;
+  border-radius: 10px !important;
+}
+
+/* Code blocks */
+.highlight {
+  background: var(--macos-bg-card) !important;
+  border: 1px solid var(--macos-border) !important;
+  border-radius: 10px !important;
+}
+
+/* Notices */
+.notice--info {
+  background: rgba(0,122,255,0.10) !important;
+  border-left: 4px solid var(--macos-accent) !important;
+}
+
+/* Responsive max-width */
+.page,
+.archive {
+  max-width: 1120px !important;
+  margin: 0 auto !important;
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
