@@ -6,16 +6,16 @@ author_profile: true
 ---
 
 - ![Static Badge](https://img.shields.io/badge/ASPLOS-2026-rgb)
-TBD
-  - Details coming soon.
+Title TBD
+  - Liang Kong, **Shengyu Fan**, et al.
 
 - ![Static Badge](https://img.shields.io/badge/HPCA-2026-rgb)
-TBD
-  - Details coming soon.
+Title TBD
+  - **Shengyu Fan**, Yilan Zhu, et al.
 
 - ![Static Badge](https://img.shields.io/badge/CCS-2025-rgb)
-TBD
-  - Details coming soon.
+Title TBD
+  - **Shengyu Fan**, Guiming Shi, et al.
 
 - ![Static Badge](https://img.shields.io/badge/MICRO-2025-rgb)
 [HAWK: Fully Homomorphic Encryption Accelerator with Fixed-Word Key Decomposition Switching](TBD)

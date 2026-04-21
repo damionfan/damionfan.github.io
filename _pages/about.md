@@ -50,6 +50,15 @@ Publications
 ======
 
 <!-- - <span style="color:orange">[ISCA25,CCF-A] </span> -->
+- ![Static Badge](https://img.shields.io/badge/ASPLOS-2026-rgb)
+Title TBD
+  - Liang Kong, **Shengyu Fan**, et al.
+- ![Static Badge](https://img.shields.io/badge/HPCA-2026-rgb)
+Title TBD
+  - **Shengyu Fan**, Yilan Zhu, et al.
+- ![Static Badge](https://img.shields.io/badge/CCS-2025-rgb)
+Title TBD
+  - **Shengyu Fan**, Guiming Shi, et al.
 - ![Static Badge](https://img.shields.io/badge/MICRO-2025-rgb)
 [HAWK: Fully Homomorphic Encryption Accelerator with Fixed-Word Key Decomposition Switching](TBD)
   - Liang Kong, **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/),Lei Chen, Guang Fan, Guiming Shi, Yilan Zhu, Geng Yang, Shoumeng, Mingzhe Zhang
