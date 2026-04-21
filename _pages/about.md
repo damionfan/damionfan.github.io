@@ -51,14 +51,14 @@ Publications
 
 <!-- - <span style="color:orange">[ISCA25,CCF-A] </span> -->
 - ![Static Badge](https://img.shields.io/badge/ASPLOS-2026-rgb)
-Title TBD
-  - Liang Kong, **Shengyu Fan**, et al.
+[Falcon: Algorithm-Hardware Co-Design for Efficient Fully Homomorphic Encryption Accelerator](TBD)
+  - Liang Kong, [Xianglong Deng](https://xldeng-chn.github.io/), Guang Fan, **Shengyu Fan**, Lei Chen, Yilan Zhu, Geng Yang, Yisong Chang, Shoumeng Yan, Mingzhe Zhang
 - ![Static Badge](https://img.shields.io/badge/HPCA-2026-rgb)
-Title TBD
-  - **Shengyu Fan**, Yilan Zhu, et al.
+[An Efficient and Scalable Hardware Architecture for Number Theoretic Transform on FPGA with Design Automation](TBD)
+  - Yilan Zhu, Geng Yang, Xingyu Tian, Dilshan Kumarathunga, Liang Kong, [Xianglong Deng](https://xldeng-chn.github.io/), **Shengyu Fan**, Guang Fan, Guiming Shi, Lei Chen, Bo Zhang, Yisong Chang, Shoumeng Yan, Zhenman Fang, Mingzhe Zhang
 - ![Static Badge](https://img.shields.io/badge/CCS-2025-rgb)
-Title TBD
-  - **Shengyu Fan**, Guiming Shi, et al.
+[WPC: Weight Plaintext Compression for CNN Inference based on RNS-CKKS](https://dl.acm.org/doi/10.1145/3719027.3765022)
+  - Guiming Shi, Yuchen Wei, **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/), Liang Kong, Xianbin Li, Jingwei Cai, Shuwen Deng, Mingzhe Zhang, Kaisheng Ma
 - ![Static Badge](https://img.shields.io/badge/MICRO-2025-rgb)
 [HAWK: Fully Homomorphic Encryption Accelerator with Fixed-Word Key Decomposition Switching](TBD)
   - Liang Kong, **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/),Lei Chen, Guang Fan, Guiming Shi, Yilan Zhu, Geng Yang, Shoumeng, Mingzhe Zhang
