@@ -1,52 +1,54 @@
 /*
- * macOS-inspired Design for Academic Pages
- * Overrides default styling with Apple.com aesthetic
+ * Academic homepage design layer
+ * Scope: visual theme, navigation stability, and author/sidebar layout.
  */
 
-/* macOS Color Palette */
 :root {
-  --macos-bg: #F5F5F7;
-  --macos-bg-card: #FFFFFF;
-  --macos-text: #1D1D1F;
-  --macos-text-2: #6E6E73;
-  --macos-accent: #007AFF;
-  --macos-border: rgba(0,0,0,0.08);
-  --macos-nav-bg: rgba(255,255,255,0.78);
-  --site-shell-max: 1280px;
-  --site-shell-pad: clamp(1rem, 4vw, 2rem);
-  --site-sidebar-width: clamp(150px, 22vw, 260px);
-  --site-column-gap: clamp(1.25rem, 4vw, 4.5rem);
+  --site-bg: #f6f3ed;
+  --site-surface: #fffdf8;
+  --site-surface-muted: #f0eadf;
+  --site-text: #1f2933;
+  --site-text-muted: #64707d;
+  --site-accent: #1f5f8b;
+  --site-accent-hover: #17496e;
+  --site-border: rgba(31, 41, 51, 0.12);
+  --site-shadow: 0 18px 45px rgba(31, 41, 51, 0.08);
+  --site-radius: 18px;
+  --site-shell-max: 1260px;
+  --site-shell-pad: clamp(1rem, 3vw, 2rem);
+  --site-sidebar-width: clamp(160px, 21vw, 260px);
+  --site-column-gap: clamp(1.5rem, 4vw, 4rem);
 }
 
-/* Dark Mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --macos-bg: #000000;
-    --macos-bg-card: #1C1C1E;
-    --macos-text: #F5F5F7;
-    --macos-text-2: #98989D;
-    --macos-accent: #0A84FF;
-    --macos-border: rgba(255,255,255,0.10);
-    --macos-nav-bg: rgba(28,28,30,0.78);
+    --site-bg: #111827;
+    --site-surface: #182231;
+    --site-surface-muted: #223044;
+    --site-text: #eef2f7;
+    --site-text-muted: #b7c0cc;
+    --site-accent: #8bbfe8;
+    --site-accent-hover: #b7d8f2;
+    --site-border: rgba(238, 242, 247, 0.12);
+    --site-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
   }
 }
 
-/* Page Background */
 body {
-  background-color: var(--macos-bg) !important;
-  color: var(--macos-text) !important;
+  background: var(--site-bg) !important;
+  color: var(--site-text) !important;
 }
 
-/* Navigation - Frosted Glass Effect */
 .masthead {
-  background: var(--macos-nav-bg) !important;
-  backdrop-filter: saturate(180%) blur(24px);
-  -webkit-backdrop-filter: saturate(180%) blur(24px);
-  border-bottom: 1px solid var(--macos-border) !important;
+  background: var(--site-surface) !important;
+  background: color-mix(in srgb, var(--site-surface) 92%, transparent) !important;
+  border-bottom: 1px solid var(--site-border) !important;
+  box-shadow: 0 1px 0 rgba(31, 41, 51, 0.02) !important;
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
 }
 
 .masthead__inner-wrap {
-  background: transparent !important;
   width: 100% !important;
   max-width: var(--site-shell-max) !important;
   margin-left: auto !important;
@@ -54,175 +56,107 @@ body {
   padding-left: var(--site-shell-pad) !important;
   padding-right: var(--site-shell-pad) !important;
   box-sizing: border-box !important;
-}
-
-.masthead__menu,
-.greedy-nav,
-.greedy-nav .visible-links {
-  width: 100% !important;
+  background: transparent !important;
 }
 
 .greedy-nav {
+  display: flex !important;
+  align-items: center !important;
+  min-width: 0 !important;
   background: transparent !important;
 }
 
-/* Site Title */
-.masthead__menu-item .site-title {
-  font-weight: 600 !important;
-  letter-spacing: -0.2px !important;
+.greedy-nav .visible-links {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex: 0 1 auto !important;
+  gap: clamp(1rem, 3vw, 2.25rem);
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Page Container */
-.page {
-  background: transparent !important;
+.greedy-nav .visible-links li {
+  display: inline-flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
 }
 
-/* Cards and Sections */
-.page__hero,
-.archive__item,
-.notice {
-  background: var(--macos-bg-card) !important;
-  border: 1px solid var(--macos-border) !important;
-  border-radius: 14px !important;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
-}
-
-/* Archive Items */
-.archive__item-title {
-  color: var(--macos-text) !important;
-  font-weight: 600 !important;
-}
-
-.archive__item-title:hover {
-  color: var(--macos-accent) !important;
-}
-
-/* Sidebar/Author Profile */
-.sidebar {
-  background: var(--macos-bg-card) !important;
-  border: 1px solid var(--macos-border) !important;
-  border-radius: 14px !important;
-}
-
-/* Author Name */
-.author__name {
-  color: var(--macos-text) !important;
-  font-weight: 600 !important;
-}
-
-/* Social Icons */
-.social-icons a {
-  color: var(--macos-text-2) !important;
-}
-
-.social-icons a:hover {
-  color: var(--macos-accent) !important;
-}
-
-/* Buttons */
-.btn {
-  background: var(--macos-accent) !important;
-  border: none !important;
-  border-radius: 10px !important;
-  font-weight: 600 !important;
-  transition: all 0.2s !important;
-}
-
-.btn:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
-}
-
-/* Pagination */
-.pagination {
-  color: var(--macos-text-2) !important;
-}
-
-.pagination a {
-  color: var(--macos-accent) !important;
-}
-
-/* Footer */
-.page__footer {
-  background: var(--macos-bg-card) !important;
-  border-top: 1px solid var(--macos-border) !important;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--macos-text) !important;
-  font-weight: 600 !important;
-}
-
-/* Links */
-a {
-  color: var(--macos-accent) !important;
+.greedy-nav a {
+  margin: 0 !important;
+  padding: 0.45rem 0 !important;
+  color: var(--site-text) !important;
   text-decoration: none !important;
-  transition: color 0.18s !important;
 }
 
-a:hover {
-  color: #0066CC !important;
+.greedy-nav a:hover {
+  color: var(--site-accent) !important;
 }
 
-/* Tables */
-table {
-  background: var(--macos-bg-card) !important;
-  border-radius: 10px !important;
+.masthead__menu-item--lg {
+  margin-right: clamp(1.5rem, 6vw, 5rem) !important;
+  padding-right: 0 !important;
 }
 
-/* Code blocks */
-.highlight {
-  background: var(--macos-bg-card) !important;
-  border: 1px solid var(--macos-border) !important;
-  border-radius: 10px !important;
+.masthead__menu-item--lg a {
+  color: var(--site-accent) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em !important;
 }
 
-/* Notices */
-.notice--info {
-  background: rgba(0,122,255,0.10) !important;
-  border-left: 4px solid var(--macos-accent) !important;
+.greedy-nav button {
+  margin-left: auto !important;
+  background: var(--site-accent) !important;
+  border-radius: 999px !important;
 }
 
-/* Responsive layout for author sidebar and main content */
+.greedy-nav .hidden-links {
+  background: var(--site-surface) !important;
+  border: 1px solid var(--site-border) !important;
+  border-radius: calc(var(--site-radius) - 6px) !important;
+  box-shadow: var(--site-shadow) !important;
+}
+
+.greedy-nav .hidden-links a {
+  color: var(--site-text) !important;
+}
+
+.greedy-nav .hidden-links a:hover {
+  background: var(--site-surface-muted) !important;
+  color: var(--site-accent) !important;
+}
+
+#main {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: var(--site-shell-max) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: var(--site-shell-pad) !important;
+  padding-right: var(--site-shell-pad) !important;
+}
+
 @media screen and (min-width: 760px) {
   #main {
     display: grid !important;
     grid-template-columns: minmax(0, var(--site-sidebar-width)) minmax(0, 1fr);
     column-gap: var(--site-column-gap);
-    align-items: start;
-    max-width: var(--site-shell-max) !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: var(--site-shell-pad) !important;
-    padding-right: var(--site-shell-pad) !important;
-    box-sizing: border-box !important;
+    align-items: start !important;
   }
 
   #main > .sidebar,
   .sidebar.sticky {
-    position: sticky !important;
-    top: 6rem !important;
     grid-column: 1 !important;
     grid-row: 1 !important;
+    position: sticky !important;
+    top: 6rem !important;
     float: none !important;
     width: 100% !important;
     max-width: var(--site-sidebar-width) !important;
     margin: 0 !important;
-    padding: 1rem !important;
-    transform: none !important;
-    z-index: 2 !important;
-    box-sizing: border-box !important;
-    overflow-wrap: break-word !important;
     justify-self: end !important;
-  }
-
-  .sidebar .author__avatar img {
-    width: clamp(96px, 14vw, 170px) !important;
-    max-width: 100% !important;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    transform: none !important;
   }
 
   #main > .page,
@@ -232,35 +166,21 @@ table {
   .archive,
   .page__related {
     grid-column: 2 !important;
-    grid-row: auto !important;
     float: none !important;
     width: 100% !important;
     max-width: min(100%, 920px) !important;
+    min-width: 0 !important;
     margin: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    min-width: 0 !important;
     justify-self: start !important;
-    box-sizing: border-box !important;
   }
 }
 
 @media screen and (min-width: 760px) and (max-width: 1050px) {
-  #main {
-    grid-template-columns: minmax(0, clamp(130px, 20vw, 210px)) minmax(0, 1fr);
-    column-gap: clamp(1rem, 3vw, 2.5rem);
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-  }
-
-  #main > .sidebar,
-  .sidebar.sticky {
-    max-width: clamp(130px, 20vw, 210px) !important;
-    padding: clamp(0.6rem, 1.2vw, 1rem) !important;
-  }
-
-  .sidebar .author__avatar img {
-    width: clamp(80px, 13vw, 140px) !important;
+  :root {
+    --site-sidebar-width: clamp(135px, 20vw, 210px);
+    --site-column-gap: clamp(1rem, 3vw, 2.25rem);
   }
 
   .sidebar .author__name {
@@ -276,8 +196,6 @@ table {
 @media screen and (max-width: 759px) {
   #main {
     display: block !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
   }
 
   #main > .sidebar,
@@ -286,7 +204,6 @@ table {
     width: 100% !important;
     max-width: none !important;
     margin-bottom: 1.5rem !important;
-    padding: 1rem !important;
   }
 
   #main > .page,
@@ -313,7 +230,118 @@ table {
   }
 }
 
-/* Smooth transitions */
-* {
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+.sidebar {
+  box-sizing: border-box !important;
+  padding: clamp(0.85rem, 1.6vw, 1.15rem) !important;
+  background: var(--site-surface) !important;
+  border: 1px solid var(--site-border) !important;
+  border-radius: var(--site-radius) !important;
+  box-shadow: var(--site-shadow) !important;
+  color: var(--site-text) !important;
+  overflow-wrap: break-word !important;
+}
+
+.sidebar .author__avatar img {
+  display: block !important;
+  width: clamp(86px, 13vw, 168px) !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border: 1px solid var(--site-border) !important;
+  box-shadow: none !important;
+}
+
+.author__name {
+  color: var(--site-text) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em !important;
+}
+
+.author__bio,
+.sidebar p,
+.sidebar li {
+  color: var(--site-text-muted) !important;
+}
+
+.social-icons a,
+.sidebar a {
+  color: var(--site-text-muted) !important;
+  text-decoration: none !important;
+}
+
+.social-icons a:hover,
+.sidebar a:hover {
+  color: var(--site-accent) !important;
+}
+
+.page,
+.archive {
+  background: transparent !important;
+  color: var(--site-text) !important;
+}
+
+.page__content {
+  color: var(--site-text) !important;
+}
+
+.page__content p,
+.page__content li {
+  line-height: 1.72 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title,
+.archive__item-title {
+  color: var(--site-text) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.035em !important;
+}
+
+.page__content h2 {
+  border-bottom: 1px solid var(--site-border) !important;
+}
+
+a {
+  color: var(--site-accent) !important;
+  text-decoration: none !important;
+  transition: color 0.16s ease, background-color 0.16s ease, border-color 0.16s ease !important;
+}
+
+a:hover {
+  color: var(--site-accent-hover) !important;
+}
+
+.archive__item,
+.notice,
+.highlight,
+table {
+  background: var(--site-surface) !important;
+  border: 1px solid var(--site-border) !important;
+  border-radius: calc(var(--site-radius) - 4px) !important;
+  box-shadow: none !important;
+}
+
+.btn,
+.pagination a.current {
+  background: var(--site-accent) !important;
+  border-color: var(--site-accent) !important;
+  border-radius: 999px !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+.btn:hover {
+  background: var(--site-accent-hover) !important;
+  color: #fff !important;
+}
+
+.page__footer {
+  background: var(--site-surface-muted) !important;
+  border-top: 1px solid var(--site-border) !important;
+  color: var(--site-text-muted) !important;
 }
