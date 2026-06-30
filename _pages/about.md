@@ -17,20 +17,21 @@ redirect_from:
 Short Bio
 === 
 
-<!-- Hi! I am currently a two-year Ph.D. student in Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). I received my B.E. and M.S. degree from the Shandong Normal University in 2020 and 2023, under the supervision of Prof. Weizhi Xu, respectively. -->
-I am a final year Ph.D. candidate at the Institute of Information Engineering, Chinese Academy of Sciences, co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/). 
-<!-- I received my B.E. and M.S. degrees from Shandong Normal University in 2020 and 2023, respectively, under the supervision of Prof. Weizhi Xu. -->
+Hi! I am an Assistant Professor at the School of Artificial Intelligence, Shandong University. I received my Ph.D. from the Institute of Information Engineering, Chinese Academy of Sciences, where I was co-advised by [Prof. Rui Hou](http://hourui-arch.net/) and [Prof. Mingzhe Zhang](https://mingzhe-zhang.github.io/).
 
-<!-- In recent years, my research interests lie in the domain of computer architecture, with a specialized focus on the design of accelerators for Fully Homomorphic Encryption (FHE) and the optimization of related FHE applications. -->
-<!-- In recent years, my research has centered on **computer architecture**, specializing in accelerator design for Fully Homomorphic Encryption (FHE) and optimizing associated applications. I aim to advance practical implementation of FHE, addressing key concerns in data security and privacy.
-Besides, we also post more interest in the accelerator for the Large Langes Model~(LLM). -->
-In recent years, my research has focused on computer architecture, with a specialization in accelerator design for Fully Homomorphic Encryption (FHE) and the optimization of its associated applications. My work aims to advance the practical implementation of FHE, addressing critical challenges in data security and privacy.
+My research interests broadly lie in computer architecture and systems, with a focus on designing efficient and secure computing systems for privacy-preserving computation and artificial intelligence. My recent work spans hardware acceleration for Fully Homomorphic Encryption (FHE), secure machine learning systems, and accelerator/system design for Large Language Models (LLMs).
 
-Additionally, I am increasingly exploring accelerator/system design for Large Language Models (LLMs) to enhance their performance, efficiency and security.
+Openings
+======
+
+I am building a research group at Shandong University and actively looking for self-motivated students and collaborators interested in computer architecture, secure and privacy-preserving computation, efficient AI systems, and hardware/software co-design. Prospective Ph.D., master's, and undergraduate students are welcome to contact me by email with a brief introduction, research interests, and a CV.
 
 
 News!
 ======
+- 06/2026: One paper is accepted by TCAD. Thanks to all collaborators!
+- 05/2026: I will join the Program Committee of MICRO 2026.
+- 04/2026: One paper is accepted by ISCA 2026. Thanks to all collaborators!
 - 11/2025: One paper is accepted by ASPLOS 2026. Thanks to all collaborators!
 - 10/2025: One paper is accepted by HPCA 2026. Thanks to all collaborators!
 - 09/2025: I will join the Artifact Evaluation Committee of EuroSys 2025.
@@ -61,7 +62,7 @@ Publications
   - Guiming Shi, Yuchen Wei, **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/), Liang Kong, Xianbin Li, Jingwei Cai, Shuwen Deng, Mingzhe Zhang, Kaisheng Ma
 - ![Static Badge](https://img.shields.io/badge/MICRO-2025-rgb)
 [HAWK: Fully Homomorphic Encryption Accelerator with Fixed-Word Key Decomposition Switching](TBD)
-  - Liang Kong, **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/),Lei Chen, Guang Fan, Guiming Shi, Yilan Zhu, Geng Yang, Shoumeng, Mingzhe Zhang
+  - Liang Kong, **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/), Lei Chen, Guang Fan, Guiming Shi, Yilan Zhu, Geng Yang, Shoumeng Yan, Mingzhe Zhang
 - ![Static Badge](https://img.shields.io/badge/ISCA-2025-rgb)
 [FAST:An FHE Accelerator for Scalable-parallelism with Tunable-bit](TBD)
   - **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/), Liang Kong, Guiming Shi, Guang Fan, Dan Meng, Rui Hou, Mingzhe Zhang
@@ -106,5 +107,3 @@ Mingzhe Zhang
 - <span style="color:orange">[INS22, CCF-B] </span>
 [Multi-attention deep neural network fusing character and word embedding for clinical and biomedical concept extraction](https://www.sciencedirect.com/science/article/abs/pii/S0020025522006831)
   - **Shengyu Fan**, Hui Yu, Xiaoya Cai, Yanfang Geng, Guangzhen Li, Weizhi Xu, Xia Wang, Yaping Yang -->
-
-

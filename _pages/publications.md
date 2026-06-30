@@ -19,7 +19,7 @@ author_profile: true
 
 - ![Static Badge](https://img.shields.io/badge/MICRO-2025-rgb)
 [HAWK: Fully Homomorphic Encryption Accelerator with Fixed-Word Key Decomposition Switching](TBD)
-  - Liang Kong, **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/),Lei Chen, Guang Fan, Guiming Shi, Yilan Zhu, Geng Yang, Shoumeng, Mingzhe Zhang
+  - Liang Kong, **Shengyu Fan**, [Xianglong Deng](https://xldeng-chn.github.io/), Lei Chen, Guang Fan, Guiming Shi, Yilan Zhu, Geng Yang, Shoumeng Yan, Mingzhe Zhang
 
 - ![Static Badge](https://img.shields.io/badge/ISCA-2025-rgb)
 [FAST:An FHE Accelerator for Scalable-parallelism with Tunable-bit](TBD)
