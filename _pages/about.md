@@ -31,7 +31,7 @@ News!
 ======
 - 06/2026: One paper is accepted by TCAD. Thanks to all collaborators!
 - 05/2026: I will join the Program Committee of MICRO 2026.
-- 04/2026: One paper is accepted by ISCA 2026. Thanks to all collaborators!
+- 04/2026: Two papers are accepted by ISCA 2026. Thanks to all collaborators!
 - 11/2025: One paper is accepted by ASPLOS 2026. Thanks to all collaborators!
 - 10/2025: One paper is accepted by HPCA 2026. Thanks to all collaborators!
 - 09/2025: I will join the Artifact Evaluation Committee of EuroSys 2025.
