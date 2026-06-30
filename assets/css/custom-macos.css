@@ -159,52 +159,103 @@ table {
   border-left: 4px solid var(--macos-accent) !important;
 }
 
-/* Responsive max-width */
-.page,
-.archive {
-  max-width: 1120px !important;
-  margin: 0 auto !important;
-}
-
 /* Responsive layout for author sidebar and main content */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 760px) {
   #main {
     display: grid !important;
-    grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
-    column-gap: clamp(2rem, 4vw, 4rem);
+    grid-template-columns: minmax(0, clamp(150px, 22vw, 260px)) minmax(0, 1fr);
+    column-gap: clamp(1.25rem, 4vw, 4.5rem);
     align-items: start;
     max-width: 1280px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    box-sizing: border-box !important;
   }
 
+  #main > .sidebar,
   .sidebar.sticky {
     position: sticky !important;
-    top: 5rem !important;
+    top: 6rem !important;
     grid-column: 1 !important;
+    grid-row: 1 !important;
     float: none !important;
     width: 100% !important;
-    max-width: 240px !important;
+    max-width: clamp(150px, 22vw, 260px) !important;
     margin: 0 !important;
     padding: 1rem !important;
     transform: none !important;
     z-index: 2 !important;
+    box-sizing: border-box !important;
+    overflow-wrap: break-word !important;
+    justify-self: end !important;
   }
 
+  .sidebar .author__avatar img {
+    width: clamp(96px, 14vw, 170px) !important;
+    max-width: 100% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #main > .page,
+  #main > .archive,
+  #main > .page__related,
   .page,
   .archive,
   .page__related {
     grid-column: 2 !important;
+    grid-row: auto !important;
     float: none !important;
     width: 100% !important;
-    max-width: 920px !important;
+    max-width: min(100%, 920px) !important;
     margin: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    min-width: 0 !important;
+    justify-self: start !important;
+    box-sizing: border-box !important;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 760px) and (max-width: 1050px) {
+  #main {
+    grid-template-columns: minmax(0, clamp(130px, 20vw, 210px)) minmax(0, 1fr);
+    column-gap: clamp(1rem, 3vw, 2.5rem);
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+
+  #main > .sidebar,
+  .sidebar.sticky {
+    max-width: clamp(130px, 20vw, 210px) !important;
+    padding: clamp(0.6rem, 1.2vw, 1rem) !important;
+  }
+
+  .sidebar .author__avatar img {
+    width: clamp(80px, 13vw, 140px) !important;
+  }
+
+  .sidebar .author__name {
+    font-size: clamp(0.95rem, 1.8vw, 1.2rem) !important;
+  }
+
+  .sidebar p,
+  .sidebar li {
+    font-size: clamp(0.78rem, 1.35vw, 0.95rem) !important;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  #main {
+    display: block !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  #main > .sidebar,
   .sidebar.sticky {
     position: static !important;
     width: 100% !important;
@@ -213,6 +264,8 @@ table {
     padding: 1rem !important;
   }
 
+  #main > .page,
+  #main > .archive,
   .page,
   .archive {
     width: 100% !important;
