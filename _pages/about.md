@@ -24,7 +24,7 @@ My research interests broadly lie in computer architecture and systems, with a f
 Openings
 ======
 
-I am building a research group at Shandong University and actively looking for self-motivated students and collaborators interested in computer architecture, secure and privacy-preserving computation, efficient AI systems, and hardware/software co-design. Prospective Ph.D., master's, and undergraduate students are welcome to contact me by email with a brief introduction, research interests, and a CV.
+Prospective Students: I am always looking for self-motivated Ph.D., master's, and undergraduate students interested in computer architecture, secure and privacy-preserving computation, efficient AI systems, and hardware/software co-design. Feel free to contact me at damionfan@163.com with a brief introduction, research interests, CV, and transcript.
 
 
 News!
