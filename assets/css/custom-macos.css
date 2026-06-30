@@ -12,6 +12,10 @@
   --macos-accent: #007AFF;
   --macos-border: rgba(0,0,0,0.08);
   --macos-nav-bg: rgba(255,255,255,0.78);
+  --site-shell-max: 1280px;
+  --site-shell-pad: clamp(1rem, 4vw, 2rem);
+  --site-sidebar-width: clamp(150px, 22vw, 260px);
+  --site-column-gap: clamp(1.25rem, 4vw, 4.5rem);
 }
 
 /* Dark Mode */
@@ -34,11 +38,32 @@ body {
 }
 
 /* Navigation - Frosted Glass Effect */
-.masthead__inner-wrap {
+.masthead {
   background: var(--macos-nav-bg) !important;
   backdrop-filter: saturate(180%) blur(24px);
   -webkit-backdrop-filter: saturate(180%) blur(24px);
   border-bottom: 1px solid var(--macos-border) !important;
+}
+
+.masthead__inner-wrap {
+  background: transparent !important;
+  width: 100% !important;
+  max-width: var(--site-shell-max) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: var(--site-shell-pad) !important;
+  padding-right: var(--site-shell-pad) !important;
+  box-sizing: border-box !important;
+}
+
+.masthead__menu,
+.greedy-nav,
+.greedy-nav .visible-links {
+  width: 100% !important;
+}
+
+.greedy-nav {
+  background: transparent !important;
 }
 
 /* Site Title */
@@ -163,14 +188,14 @@ table {
 @media screen and (min-width: 760px) {
   #main {
     display: grid !important;
-    grid-template-columns: minmax(0, clamp(150px, 22vw, 260px)) minmax(0, 1fr);
-    column-gap: clamp(1.25rem, 4vw, 4.5rem);
+    grid-template-columns: minmax(0, var(--site-sidebar-width)) minmax(0, 1fr);
+    column-gap: var(--site-column-gap);
     align-items: start;
-    max-width: 1280px !important;
+    max-width: var(--site-shell-max) !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-left: var(--site-shell-pad) !important;
+    padding-right: var(--site-shell-pad) !important;
     box-sizing: border-box !important;
   }
 
@@ -182,7 +207,7 @@ table {
     grid-row: 1 !important;
     float: none !important;
     width: 100% !important;
-    max-width: clamp(150px, 22vw, 260px) !important;
+    max-width: var(--site-sidebar-width) !important;
     margin: 0 !important;
     padding: 1rem !important;
     transform: none !important;
