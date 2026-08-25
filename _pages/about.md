@@ -29,6 +29,7 @@ Prospective Students: I am always looking for self-motivated Ph.D., master's, an
 
 News!
 ======
+- 08/2026: I will join the [USENIX Security '27](https://sec27cycle1.usenix.hotcrp.com/) Program Committee.
 - 08/2026: I will join the Program Committee of HPCA 2027.
 - 06/2026: One paper is accepted by TCAD. Thanks to all collaborators!
 - 05/2026: I will join the Program Committee of MICRO 2026.
